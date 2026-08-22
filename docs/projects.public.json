@@ -9,10 +9,15 @@
       "stack": [
         "Vite"
       ],
+      "repoUrl": "https://github.com/kou56250046-cloud/github-app-manager",
+      "repoName": "github-app-manager",
+      "liveUrl": "https://kou56250046-cloud.github.io/github-app-manager/",
       "lastUpdated": "2026-08-22",
       "status": "active",
       "tags": [],
-      "syncState": "local-only"
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "attention"
     },
     {
       "key": "project-review",

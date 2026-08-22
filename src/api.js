@@ -4,7 +4,18 @@
  */
 export const state = { isDev: false, projectsRoot: null };
 
+/** dev サーバーは localhost でしか動かないので、それ以外では問い合わせない
+ *  （公開ページのコンソールに 404 を残さないため） */
+function couldBeDev() {
+  const h = location.hostname;
+  return h === 'localhost' || h === '127.0.0.1' || h === '[::1]' || h === '';
+}
+
 export async function detectMode() {
+  if (!couldBeDev()) {
+    state.isDev = false;
+    return false;
+  }
   try {
     const res = await fetch('./api/health', { cache: 'no-store' });
     if (!res.ok) return false;
