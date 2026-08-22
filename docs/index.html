@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Crect x='7' y='8' width='8' height='7' rx='2' fill='white'/%3E%3Crect x='17' y='8' width='8' height='7' rx='2' fill='white' opacity='.6'/%3E%3Crect x='7' y='17' width='8' height='7' rx='2' fill='white' opacity='.6'/%3E%3Crect x='17' y='17' width='8' height='7' rx='2' fill='white'/%3E%3C/svg%3E" />
+  <title>Project Manager — ローカル × GitHub</title>
+  <script type="module" crossorigin src="./assets/index-BoPbUzau.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-5Xv9ATYA.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__title">
+      <h1>Project Manager</h1>
+      <p class="topbar__sub" id="scanInfo">読み込み中…</p>
+    </div>
+    <div class="topbar__actions">
+      <button id="btnRescan" class="btn btn--ghost" hidden>再スキャン</button>
+      <span id="modeBadge" class="badge badge--mode"></span>
+    </div>
+  </header>
+
+  <div id="warnings" class="warnings" hidden></div>
+
+  <nav class="summary" id="summary" aria-label="ステータス別フィルタ"></nav>
+
+  <section class="controls">
+    <input id="search" class="control control--search" type="search"
+           placeholder="プロジェクト名・概要・スタックで検索…" autocomplete="off" />
+    <select id="stackFilter" class="control"><option value="">スタック: すべて</option></select>
+    <select id="statusFilter" class="control">
+      <option value="">状態: すべて</option>
+      <option value="active">稼働中</option>
+      <option value="wip">開発中</option>
+      <option value="archived">アーカイブ</option>
+    </select>
+    <select id="sort" class="control">
+      <option value="updated">更新が新しい順</option>
+      <option value="updated-asc">更新が古い順</option>
+      <option value="name">名前順</option>
+      <option value="state">要対応順</option>
+    </select>
+    <span class="controls__count" id="resultCount"></span>
+  </section>
+
+  <main id="grid" class="grid" aria-live="polite"></main>
+
+  <aside id="detail" class="detail" hidden aria-label="プロジェクト詳細"></aside>
+  <div id="overlay" class="overlay" hidden></div>
+  <div id="modalRoot"></div>
+
+</body>
+</html>

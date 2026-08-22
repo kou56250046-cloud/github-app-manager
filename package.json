@@ -1,0 +1,23 @@
+{
+  "name": "github-app-manager",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ローカルのprojectsディレクトリとGitHubリポジトリを突き合わせ、カード形式で一覧・管理するダッシュボード",
+  "type": "module",
+  "scripts": {
+    "scan": "node scripts/scan.mjs",
+    "scan:local": "node scripts/scan.mjs --local-only",
+    "dev": "vite",
+    "build": "vite build",
+    "publish:pages": "node scripts/publish.mjs"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

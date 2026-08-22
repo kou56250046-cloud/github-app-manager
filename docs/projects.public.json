@@ -1,0 +1,791 @@
+{
+  "generatedAt": "2026-08-22",
+  "owner": "kou56250046-cloud",
+  "projects": [
+    {
+      "key": "github-app-manager",
+      "name": "github-app-manager",
+      "summary": "ローカルのprojectsディレクトリとGitHubリポジトリを突き合わせ、カード形式で一覧・管理するダッシュボード",
+      "stack": [
+        "Vite"
+      ],
+      "lastUpdated": "2026-08-22",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "project-review",
+      "name": "project-review",
+      "summary": "フォルダをまるごと読み込んで、構造・関係・中身をその場でレビューするローカル完結型ビューア",
+      "stack": [
+        "Vite",
+        "GitHub Actions"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/project-review",
+      "repoName": "project-review",
+      "liveUrl": "https://kou56250046-cloud.github.io/project-review/",
+      "lastUpdated": "2026-08-22",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "Debate-prompt",
+      "name": "debate-app",
+      "summary": "議題をひとつ投げると、4人の論者と1名の司会が討論するプロンプトを生成し、 その討論結果を構造化して記録・可視化する、完全ローカルの個人ツール。",
+      "stack": [
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/Debate-prompt",
+      "repoName": "Debate-prompt",
+      "liveUrl": "https://kou56250046-cloud.github.io/Debate-prompt/",
+      "lastUpdated": "2026-08-21",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "note-automation-app",
+      "name": "note-automation",
+      "summary": "Claude Code で「ひとり出版社」を組み、リサーチから記事生成までを自動化するリポジトリ。",
+      "stack": [
+        "GitHub Actions"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/note-automation-app",
+      "repoName": "note-automation-app",
+      "liveUrl": "https://kou56250046-cloud.github.io/note-automation-app/",
+      "lastUpdated": "2026-08-21",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "lyric-generation-app",
+      "name": "lyric-generation",
+      "summary": "Suno で曲を作るときの Style 欄を考える手間と歌詞を書く手間をなくすための、単一ファイルの Web ツール。",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/lyric-generation-app",
+      "repoName": "lyric-generation-app",
+      "liveUrl": "https://kou56250046-cloud.github.io/lyric-generation-app/",
+      "lastUpdated": "2026-08-20",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "brain-training",
+      "name": "shundoku",
+      "summary": "瞬読（速読）と記憶法を「学べて」「鍛えられる」一体型 Web トレーニングサイト。",
+      "stack": [
+        "PWA"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/brain-training",
+      "repoName": "brain-training",
+      "liveUrl": "https://kou56250046-cloud.github.io/brain-training/",
+      "lastUpdated": "2026-08-19",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "centence-analyzer",
+      "name": "centence-analyzer",
+      "summary": "書籍のOCRテキストから実例（体験談・逸話）を抽出し、カテゴリを付けて検索できる 単一HTMLファイルにまとめる。",
+      "stack": [
+        "不明"
+      ],
+      "lastUpdated": "2026-08-19",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "strech-app",
+      "name": "strech-app",
+      "summary": "在宅ワークで固まった身体を、自分の計測データに基づいて改善するための個人用知識ベース。依存ゼロ・オフライン・file:// で動く。",
+      "stack": [
+        "Node.js"
+      ],
+      "lastUpdated": "2026-08-16",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "file-cleaning",
+      "name": "file-cleaning",
+      "summary": "PC内のデータを可視化し、ストレージを圧迫している原因を発見し、安全に整理するためのストレージ管理ダッシュボード",
+      "stack": [
+        "Electron",
+        "Vite",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "lastUpdated": "2026-08-14",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "prisner-training",
+      "name": "prisner-trainig",
+      "summary": "書籍『プリズナートレーニング』を、進捗管理とフォーム解説を兼ねた個人用アプリにしたもの。 完全ローカル動作・ログイン不要・無料運用。",
+      "stack": [
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind",
+        "GitHub Actions"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/prisner-training",
+      "repoName": "prisner-training",
+      "liveUrl": "https://kou56250046-cloud.github.io/prisner-training/",
+      "lastUpdated": "2026-08-13",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "scraping-pc",
+      "name": "scraping-pc",
+      "summary": "パソコン工房・じゃんぱら・イオシスを横断検索し、条件で絞り込む。 デスクトップPC・ノートPC・iPhone/iPad・メモリ・SSD に対応。",
+      "stack": [
+        "Python"
+      ],
+      "lastUpdated": "2026-08-11",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "knowledge-base",
+      "name": "knowledge-base",
+      "stack": [
+        "Python"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/knowledge-base",
+      "repoName": "knowledge-base",
+      "liveUrl": "https://kou56250046-cloud.github.io/knowledge-base/",
+      "lastUpdated": "2026-08-05",
+      "status": "active",
+      "tags": [],
+      "language": "Python",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "study-contents",
+      "name": "study-contents",
+      "stack": [
+        "JavaScript"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/study-contents",
+      "repoName": "study-contents",
+      "liveUrl": "https://kou56250046-cloud.github.io/study-contents/",
+      "lastUpdated": "2026-08-04",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "kakei-manager",
+      "name": "kakei-manager",
+      "summary": "家計管理ダッシュボード（ローカル完結・依存パッケージゼロ）",
+      "stack": [
+        "Node.js"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/kakei-manager",
+      "repoName": "kakei-manager",
+      "liveUrl": "https://kou56250046-cloud.github.io/kakei-manager/",
+      "lastUpdated": "2026-08-04",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "music-app",
+      "name": "music-app",
+      "summary": "iPhoneで自分のmp3を聴くための個人用プレイヤーです。費用は一切かかりません。 コードを書く必要はありません。 以下の順に進めてください。",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/music-app",
+      "repoName": "music-app",
+      "liveUrl": "https://kou56250046-cloud.github.io/music-app/",
+      "lastUpdated": "2026-08-01",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "principle",
+      "name": "principle",
+      "stack": [
+        "HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/principle",
+      "repoName": "principle",
+      "liveUrl": "https://kou56250046-cloud.github.io/principle/",
+      "lastUpdated": "2026-07-27",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "design-html",
+      "name": "html-design-sample",
+      "summary": "高度な3D演出30種・先進的な2D演出30種、合計60個のWeb表現テクニックを、実際に動くミニデモで見比べられるギャラリーサイトです。",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/design-html",
+      "repoName": "design-html",
+      "liveUrl": "https://kou56250046-cloud.github.io/design-html/",
+      "lastUpdated": "2026-07-24",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "tetoris",
+      "name": "tetoris",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/tetoris",
+      "repoName": "tetoris",
+      "liveUrl": "https://kou56250046-cloud.github.io/tetoris/",
+      "lastUpdated": "2026-07-24",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "talot-studio",
+      "name": "talot-studio",
+      "stack": [
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/talot-studio",
+      "repoName": "talot-studio",
+      "liveUrl": "https://kou56250046-cloud.github.io/talot-studio/",
+      "lastUpdated": "2026-07-20",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "brog-app-company",
+      "name": "brog-app-company",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/brog-app-company",
+      "repoName": "brog-app-company",
+      "liveUrl": "https://brog-app-company.vercel.app",
+      "lastUpdated": "2026-07-08",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "brog-creator-web",
+      "name": "brog-creator-web",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/brog-creator-web",
+      "repoName": "brog-creator-web",
+      "liveUrl": "https://brog-creator-web.vercel.app",
+      "lastUpdated": "2026-06-18",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "church-event",
+      "name": "church-events",
+      "summary": "カテゴリー・検索・絞り込みで 5分以内 に教会イベントの企画書を確認できる個人用カタログアプリです。",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/church-event",
+      "repoName": "church-event",
+      "liveUrl": "https://kou56250046-cloud.github.io/church-event/",
+      "lastUpdated": "2026-06-15",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "genri-daily-memo",
+      "name": "genri-daily-memo",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/genri-daily-memo",
+      "repoName": "genri-daily-memo",
+      "liveUrl": "https://kou56250046-cloud.github.io/genri-daily-memo/",
+      "lastUpdated": "2026-06-10",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "yakuzen",
+      "name": "薬膳",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/yakuzen",
+      "repoName": "yakuzen",
+      "liveUrl": "https://kou56250046-cloud.github.io/yakuzen/",
+      "lastUpdated": "2026-06-09",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "virtual-tensin",
+      "name": "virtural-tensinen",
+      "summary": "天心苑祈祷会のバーチャル共在システム。参加者がアバターとして俯瞰空間に集まり、存在感を共有しながら祈祷会に参加できる。",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/virtual-tensin",
+      "repoName": "virtual-tensin",
+      "liveUrl": "https://virtual-tensin.vercel.app",
+      "lastUpdated": "2026-06-09",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "memory-training",
+      "name": "imagen-training",
+      "summary": "瞬読（速読）と記憶法を「学べて」「鍛えられる」一体型 Web トレーニングサイト。",
+      "stack": [
+        "PWA"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/memory-training",
+      "repoName": "memory-training",
+      "liveUrl": "https://kou56250046-cloud.github.io/memory-training/",
+      "lastUpdated": "2026-06-09",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "shicyu-blog",
+      "name": "四柱推命鑑定",
+      "summary": "四柱推命鑑定ブログ — Five Agents × Claude Code で生成した鑑定記事を Vercel で公開",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/shicyu-blog",
+      "repoName": "shicyu-blog",
+      "liveUrl": "https://shicyu-blog.vercel.app",
+      "lastUpdated": "2026-06-09",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "seijo-church",
+      "name": "成城教会",
+      "summary": "システム名: 成城教会ウェブサイト管理システム 目的: 教会向け CMS（コンテンツ管理システム）。公開 Web サイトと管理画面を一体で提供する。 対象ユーザー: - 一般訪問者: ログイン後に礼拝動画・聖書のみ言葉・お知らせ・カレンダ…",
+      "stack": [
+        "PWA",
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/seijo-church",
+      "repoName": "seijo-church",
+      "liveUrl": "https://seijo-church.vercel.app",
+      "lastUpdated": "2026-06-08",
+      "status": "active",
+      "tags": [],
+      "syncState": "attention"
+    },
+    {
+      "key": "idea-creator",
+      "name": "idea-creator",
+      "stack": [
+        "TypeScript"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/idea-creator",
+      "repoName": "idea-creator",
+      "liveUrl": "https://idea-creator-five.vercel.app",
+      "lastUpdated": "2026-06-08",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "point-calculate",
+      "name": "score-app",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/point-calculate",
+      "repoName": "point-calculate",
+      "liveUrl": "https://kou56250046-cloud.github.io/point-calculate/",
+      "lastUpdated": "2026-06-08",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "child-education",
+      "name": "child-education",
+      "summary": "0〜5歳児向け 右脳活性化・記憶力トレーニング Webアプリ。 家庭で手軽に使える完全無料・完全静的・バックエンドなしのシングルページアプリ。 七田式右脳教育の考え方に着想を得た個人運用ツール（「七田式」「しちだ」名称は使用しない）。",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/child-education",
+      "repoName": "child-education",
+      "liveUrl": "https://kou56250046-cloud.github.io/child-education/",
+      "lastUpdated": "2026-06-03",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "seijo-mapping",
+      "name": "seijo-mapping",
+      "summary": "教会メンバーマップシステム — 教会メンバーの居住地を地図上に可視化し、近隣メンバー同士の交流を促進するツール。",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/seijo-mapping",
+      "repoName": "seijo-mapping",
+      "liveUrl": "https://seijo-mapping.vercel.app",
+      "lastUpdated": "2026-06-03",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "fermi-logical",
+      "name": "fermi-logical",
+      "summary": "フェルミ推定・論理・推理・水平思考・三段論法・確率・規則性・クリティカル思考を、毎日1問じっくり鍛えるトレーニングサイトです。",
+      "stack": [
+        "PWA"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/fermi-logical",
+      "repoName": "fermi-logical",
+      "liveUrl": "https://kou56250046-cloud.github.io/fermi-logical/",
+      "lastUpdated": "2026-06-03",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "shundoku",
+      "name": "shundoku",
+      "stack": [],
+      "repoUrl": "https://github.com/kou56250046-cloud/shundoku",
+      "repoName": "shundoku",
+      "lastUpdated": "2026-05-31",
+      "status": "active",
+      "tags": [],
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "multi-mapping",
+      "name": "multi-mapping",
+      "stack": [
+        "Python"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/multi-mapping",
+      "repoName": "multi-mapping",
+      "liveUrl": "https://multi-mapping.vercel.app",
+      "lastUpdated": "2026-05-26",
+      "status": "active",
+      "tags": [],
+      "language": "Python",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "jiatama-training",
+      "name": "jiatama-training",
+      "stack": [
+        "TypeScript"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/jiatama-training",
+      "repoName": "jiatama-training",
+      "liveUrl": "https://jiatama-training.vercel.app",
+      "lastUpdated": "2026-05-16",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "ai-dev-blog",
+      "name": "ai-dev-blog",
+      "summary": "AI駆動開発（Claude Code / Devin / GitHub等）の学習ナレッジベース兼ブログ。Astro + Tailwind CSS + GSAP で構築。",
+      "stack": [
+        "Astro"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/ai-dev-blog",
+      "repoName": "ai-dev-blog",
+      "liveUrl": "https://ai-dev-blog-one.vercel.app",
+      "lastUpdated": "2026-05-13",
+      "status": "active",
+      "tags": [],
+      "language": "Astro",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "health-articles",
+      "name": "health-articles",
+      "stack": [
+        "TypeScript"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/health-articles",
+      "repoName": "health-articles",
+      "liveUrl": "https://health-articles.vercel.app",
+      "lastUpdated": "2026-05-12",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "novel-creator",
+      "name": "novel-creator",
+      "stack": [
+        "TypeScript"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/novel-creator",
+      "repoName": "novel-creator",
+      "liveUrl": "https://novel-creator-rouge.vercel.app",
+      "lastUpdated": "2026-04-30",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "article-generation",
+      "name": "Article-generation",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/article-generation",
+      "repoName": "article-generation",
+      "liveUrl": "https://article-generation.vercel.app",
+      "lastUpdated": "2026-04-20",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "占い診断_ver2",
+      "name": "占い診断_ver2",
+      "stack": [
+        "静的HTML"
+      ],
+      "lastUpdated": "2026-03-24",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "soccer_vision_training",
+      "name": "soccer_vision_training",
+      "stack": [
+        "HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/soccer_vision_training",
+      "repoName": "soccer_vision_training",
+      "liveUrl": "https://kou56250046-cloud.github.io/soccer_vision_training/",
+      "lastUpdated": "2025-12-11",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "Youth-church-activity-report",
+      "name": "Youth-church-activity-report",
+      "stack": [
+        "HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/Youth-church-activity-report",
+      "repoName": "Youth-church-activity-report",
+      "liveUrl": "https://kou56250046-cloud.github.io/Youth-church-activity-report/",
+      "lastUpdated": "2025-12-09",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "day_calender",
+      "name": "day_calender",
+      "stack": [
+        "HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/day_calender",
+      "repoName": "day_calender",
+      "liveUrl": "https://kou56250046-cloud.github.io/day_calender/",
+      "lastUpdated": "2025-12-03",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "-_training",
+      "name": "-_training",
+      "stack": [
+        "HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/-_training",
+      "repoName": "-_training",
+      "liveUrl": "https://kou56250046-cloud.github.io/-_training/",
+      "lastUpdated": "2025-11-13",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "BTR-record-sheets",
+      "name": "BTR-record-sheets",
+      "stack": [
+        "HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/BTR-record-sheets",
+      "repoName": "BTR-record-sheets",
+      "liveUrl": "https://kou56250046-cloud.github.io/BTR-record-sheets/",
+      "lastUpdated": "2025-10-31",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "memory_trainer",
+      "name": "memory_trainer",
+      "stack": [
+        "HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/memory_trainer",
+      "repoName": "memory_trainer",
+      "liveUrl": "https://kou56250046-cloud.github.io/memory_trainer/",
+      "lastUpdated": "2025-10-22",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    },
+    {
+      "key": "memory-trainer_nimber",
+      "name": "memory-trainer_nimber",
+      "stack": [
+        "HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/memory-trainer_nimber",
+      "repoName": "memory-trainer_nimber",
+      "liveUrl": "https://kou56250046-cloud.github.io/memory-trainer_nimber/",
+      "lastUpdated": "2025-10-21",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "remote-only"
+    }
+  ]
+}
