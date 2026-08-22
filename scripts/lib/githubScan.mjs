@@ -6,10 +6,17 @@ import { GITHUB_OWNER } from './config.mjs';
  * 平文でトークンをファイルに置かせないための順序。
  */
 export async function resolveToken() {
-  const r = await run('gh', ['auth', 'token']);
-  if (r.ok && r.stdout.trim()) return { token: r.stdout.trim(), source: 'gh' };
+  // gh は GITHUB_TOKEN / GH_TOKEN があるとそれを優先して返すため、
+  // まず両者を外した環境で問い合わせて「gh auth login のログイン情報」を取りに行く。
+  // 古い環境変数が生きたログインを覆い隠すのを防ぐ。
+  const clean = { ...process.env };
+  delete clean.GITHUB_TOKEN;
+  delete clean.GH_TOKEN;
 
-  const env = process.env.GITHUB_TOKEN?.trim();
+  const login = await run('gh', ['auth', 'token'], { env: clean });
+  if (login.ok && login.stdout.trim()) return { token: login.stdout.trim(), source: 'gh' };
+
+  const env = (process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN)?.trim();
   if (env) return { token: env, source: 'env' };
 
   return { token: null, source: null };
@@ -60,7 +67,7 @@ export async function scanGitHub() {
     warnings.push(
       `${source === 'gh' ? 'gh CLI' : '環境変数 GITHUB_TOKEN'} のトークンが無効です。` +
         'public リポジトリのみ取得します（private は見えません）。' +
-        'GITHUB_TOKEN 環境変数を削除して `gh auth login` を実行してください。'
+        'ターミナルで `gh auth login` を実行してください。'
     );
     token = null;
     source = null;
