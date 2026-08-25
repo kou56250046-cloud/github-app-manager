@@ -17,6 +17,17 @@ export const FLAG_LABEL = {
   'repo-unverified': 'GitHub側で確認できず',
 };
 
+/**
+ * サマリー行にクイックチップとして出すスタック。
+ * 「どこで動かすものか」が一目で分かるものだけを並べる（該当0件なら出さない）。
+ */
+export const QUICK_STACKS = [
+  { name: 'Streamlit', color: 'var(--s-streamlit)' },
+  { name: 'FastAPI', color: 'var(--s-remote)' },
+  { name: 'Django', color: 'var(--s-synced)' },
+  { name: 'Flask', color: 'var(--s-local)' },
+];
+
 export const STATUS_LABEL = { active: '稼働中', wip: '開発中', archived: 'アーカイブ' };
 
 /** 「要対応順」ソートの優先度。数字が小さいほど先に出す。 */

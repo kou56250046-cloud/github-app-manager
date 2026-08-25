@@ -1,6 +1,6 @@
 import './style.css';
 import { detectMode, loadData, post, state } from './api.js';
-import { STATE_META, FLAG_LABEL, fmtDate } from './constants.js';
+import { STATE_META, FLAG_LABEL, QUICK_STACKS, fmtDate } from './constants.js';
 import { renderGrid } from './cards.js';
 import { renderDetail } from './detail.js';
 import { filters, applyFilters, collectStacks } from './filters.js';
@@ -29,6 +29,13 @@ function tally() {
     for (const f of p.flags ?? []) flags[f] = (flags[f] ?? 0) + 1;
   }
   return { states, flags };
+}
+
+/** スタック絞り込みは select とチップの両方から操作するので、必ずここを通す */
+function setStack(name) {
+  filters.stack = filters.stack === name ? '' : name;
+  dom.stack.value = filters.stack;
+  render();
 }
 
 function renderSummary() {
@@ -60,6 +67,30 @@ function renderSummary() {
   for (const k of CHIP_ORDER) chip(k, STATE_META[k]?.label ?? k, states[k], STATE_META[k]?.color);
   chip('name-mismatch', FLAG_LABEL['name-mismatch'], flags['name-mismatch'], 'var(--s-uncommitted)');
   chip('repo-unverified', FLAG_LABEL['repo-unverified'], flags['repo-unverified'], 'var(--s-behind)');
+
+  renderStackChips();
+}
+
+/** Streamlit など「動かし方が違う」スタックをワンタップで絞り込めるようにする */
+function renderStackChips() {
+  const counts = new Map();
+  for (const p of data.projects) {
+    for (const st of p.stack ?? []) counts.set(st, (counts.get(st) ?? 0) + 1);
+  }
+  const shown = QUICK_STACKS.filter(({ name }) => counts.get(name));
+  if (!shown.length) return;
+
+  dom.summary.append(el('span', 'summary__sep'));
+  for (const { name, color } of shown) {
+    const b = el('button', 'chip');
+    b.type = 'button';
+    b.setAttribute('aria-pressed', String(filters.stack === name));
+    const dot = el('span', 'chip__dot');
+    dot.style.setProperty('--c', color);
+    b.append(dot, el('span', 'chip__n', String(counts.get(name))), el('span', null, name));
+    b.addEventListener('click', () => setStack(name));
+    dom.summary.append(b);
+  }
 }
 
 function renderStackOptions() {

@@ -1,4 +1,4 @@
-import { STATE_META, FLAG_LABEL, fmtDate, relDays } from './constants.js';
+import { STATE_META, FLAG_LABEL, QUICK_STACKS, fmtDate, relDays } from './constants.js';
 import { state } from './api.js';
 
 const el = (tag, cls, text) => {
@@ -7,6 +7,8 @@ const el = (tag, cls, text) => {
   if (text != null) n.textContent = text;
   return n;
 };
+
+const quickStack = (name) => QUICK_STACKS.find((s) => s.name === name);
 
 function renderCard(p, onOpen) {
   const meta = STATE_META[p.syncState] ?? { label: p.syncState, color: 'var(--text-dim)' };
@@ -34,7 +36,16 @@ function renderCard(p, onOpen) {
   );
 
   const tags = el('div', 'tags');
-  for (const t of (p.stack ?? []).slice(0, 4)) tags.append(el('span', 'tag', t));
+  // Streamlit のように実行環境が変わるスタックは、並び順でも色でも目立たせる
+  const stack = [...(p.stack ?? [])].sort(
+    (a, b) => (quickStack(b) ? 1 : 0) - (quickStack(a) ? 1 : 0)
+  );
+  for (const t of stack.slice(0, 4)) {
+    const hit = quickStack(t);
+    const tag = el('span', hit ? 'tag tag--stack' : 'tag', t);
+    if (hit) tag.style.setProperty('--c', hit.color);
+    tags.append(tag);
+  }
   for (const f of p.flags ?? []) {
     if (f === 'name-mismatch' || f === 'repo-unverified') {
       tags.append(el('span', 'tag tag--warn', `⚠ ${FLAG_LABEL[f]}`));

@@ -2,10 +2,11 @@
  * プロジェクトの技術スタック・種別を判定してタグ配列を返す。
  * 排他ではなく複数付与する（例: ["Next.js", "Vercel"]）。
  *
- * @param {{ entries: Set<string>, pkg: object|null, hasWorkflows: boolean, hasPyFiles: boolean }} ctx
+ * @param {{ entries: Set<string>, pkg: object|null, hasWorkflows: boolean, hasPyFiles: boolean,
+ *          pyDeps: Set<string> }} ctx
  */
 export function detectStack(ctx) {
-  const { entries, pkg, hasWorkflows, hasPyFiles } = ctx;
+  const { entries, pkg, hasWorkflows, hasPyFiles, pyDeps = new Set() } = ctx;
   const tags = [];
   const deps = pkg ? { ...(pkg.dependencies ?? {}), ...(pkg.devDependencies ?? {}) } : {};
   const has = (name) => Object.prototype.hasOwnProperty.call(deps, name);
@@ -21,9 +22,15 @@ export function detectStack(ctx) {
   if (has('tailwindcss')) tags.push('Tailwind');
 
   // --- 言語・ランタイム ---
-  if (entries.has('requirements.txt') || entries.has('pyproject.toml') || hasPyFiles) {
-    tags.push('Python');
-  }
+  const isPython = entries.has('requirements.txt') || entries.has('pyproject.toml') || hasPyFiles;
+
+  // Python 側のフレームワーク。Streamlit は「どこで動かすか」が変わるので必ず出す。
+  if (pyDeps.has('streamlit')) tags.push('Streamlit');
+  else if (pyDeps.has('fastapi')) tags.push('FastAPI');
+  else if (pyDeps.has('django')) tags.push('Django');
+  else if (pyDeps.has('flask')) tags.push('Flask');
+
+  if (isPython) tags.push('Python');
 
   // --- 配信形態 ---
   const hasManifest = entries.has('manifest.json') || entries.has('manifest.webmanifest');
@@ -44,6 +51,7 @@ export function detectStack(ctx) {
 
 /** カードのプレースホルダ色を決めるための代表タグ */
 export function primaryStack(tags) {
-  const order = ['Next.js', 'Electron', 'Astro', 'React', 'Python', 'PWA', '静的HTML', 'Vite', 'Node.js'];
+  const order = ['Next.js', 'Electron', 'Astro', 'React', 'Streamlit', 'FastAPI', 'Django', 'Flask',
+    'Python', 'PWA', '静的HTML', 'Vite', 'Node.js'];
   return order.find((t) => tags.includes(t)) ?? tags[0] ?? '不明';
 }

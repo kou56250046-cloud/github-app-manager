@@ -1,7 +1,72 @@
 {
-  "generatedAt": "2026-08-22",
+  "generatedAt": "2026-08-25",
   "owner": "kou56250046-cloud",
   "projects": [
+    {
+      "key": "Debate-prompt",
+      "name": "debate-app",
+      "summary": "議題をひとつ投げると、4人の論者と1名の司会が討論するプロンプトを生成し、 その討論結果を構造化して記録・可視化する、完全ローカルの個人ツール。",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/Debate-prompt",
+      "repoName": "Debate-prompt",
+      "liveUrl": "https://kou56250046-cloud.github.io/Debate-prompt/",
+      "lastUpdated": "2026-08-24",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "kakei-manager",
+      "name": "kakei-manager",
+      "summary": "家計管理ダッシュボード（ローカル完結・依存パッケージゼロ）",
+      "stack": [
+        "Node.js"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/kakei-manager",
+      "repoName": "kakei-manager",
+      "liveUrl": "https://kou56250046-cloud.github.io/kakei-manager/",
+      "lastUpdated": "2026-08-24",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "scraipng-diy",
+      "name": "scraipng-diy",
+      "summary": "DIYで木材を買うとき「どこが一番安いか」を探す手間をなくすためのローカルツール。",
+      "stack": [
+        "Streamlit",
+        "Python"
+      ],
+      "lastUpdated": "2026-08-24",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "note-automation-app",
+      "name": "note-automation",
+      "summary": "Claude Code で「ひとり出版社」を組み、リサーチから記事生成までを自動化するリポジトリ。",
+      "stack": [
+        "GitHub Actions"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/note-automation-app",
+      "repoName": "note-automation-app",
+      "liveUrl": "https://kou56250046-cloud.github.io/note-automation-app/",
+      "lastUpdated": "2026-08-24",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
     {
       "key": "github-app-manager",
       "name": "github-app-manager",
@@ -34,40 +99,6 @@
       "status": "active",
       "tags": [],
       "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "synced"
-    },
-    {
-      "key": "Debate-prompt",
-      "name": "debate-app",
-      "summary": "議題をひとつ投げると、4人の論者と1名の司会が討論するプロンプトを生成し、 その討論結果を構造化して記録・可視化する、完全ローカルの個人ツール。",
-      "stack": [
-        "静的HTML"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/Debate-prompt",
-      "repoName": "Debate-prompt",
-      "liveUrl": "https://kou56250046-cloud.github.io/Debate-prompt/",
-      "lastUpdated": "2026-08-21",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "synced"
-    },
-    {
-      "key": "note-automation-app",
-      "name": "note-automation",
-      "summary": "Claude Code で「ひとり出版社」を組み、リサーチから記事生成までを自動化するリポジトリ。",
-      "stack": [
-        "GitHub Actions"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/note-automation-app",
-      "repoName": "note-automation-app",
-      "liveUrl": "https://kou56250046-cloud.github.io/note-automation-app/",
-      "lastUpdated": "2026-08-21",
-      "status": "active",
-      "tags": [],
-      "language": "HTML",
       "isPrivate": false,
       "syncState": "synced"
     },
@@ -171,6 +202,7 @@
       "name": "scraping-pc",
       "summary": "パソコン工房・じゃんぱら・イオシスを横断検索し、条件で絞り込む。 デスクトップPC・ノートPC・iPhone/iPad・メモリ・SSD に対応。",
       "stack": [
+        "Streamlit",
         "Python"
       ],
       "lastUpdated": "2026-08-11",
@@ -209,23 +241,6 @@
       "language": "JavaScript",
       "isPrivate": false,
       "syncState": "remote-only"
-    },
-    {
-      "key": "kakei-manager",
-      "name": "kakei-manager",
-      "summary": "家計管理ダッシュボード（ローカル完結・依存パッケージゼロ）",
-      "stack": [
-        "Node.js"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/kakei-manager",
-      "repoName": "kakei-manager",
-      "liveUrl": "https://kou56250046-cloud.github.io/kakei-manager/",
-      "lastUpdated": "2026-08-04",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "attention"
     },
     {
       "key": "music-app",
@@ -529,7 +544,8 @@
       "stack": [
         "Next.js",
         "TypeScript",
-        "Tailwind"
+        "Tailwind",
+        "Streamlit"
       ],
       "repoUrl": "https://github.com/kou56250046-cloud/seijo-mapping",
       "repoName": "seijo-mapping",
@@ -653,11 +669,9 @@
     },
     {
       "key": "article-generation",
-      "name": "Article-generation",
+      "name": "article-generation",
       "stack": [
-        "Next.js",
-        "TypeScript",
-        "Tailwind"
+        "TypeScript"
       ],
       "repoUrl": "https://github.com/kou56250046-cloud/article-generation",
       "repoName": "article-generation",
@@ -667,7 +681,7 @@
       "tags": [],
       "language": "TypeScript",
       "isPrivate": false,
-      "syncState": "attention"
+      "syncState": "remote-only"
     },
     {
       "key": "占い診断_ver2",
@@ -722,22 +736,6 @@
       "repoName": "day_calender",
       "liveUrl": "https://kou56250046-cloud.github.io/day_calender/",
       "lastUpdated": "2025-12-03",
-      "status": "active",
-      "tags": [],
-      "language": "HTML",
-      "isPrivate": false,
-      "syncState": "remote-only"
-    },
-    {
-      "key": "-_training",
-      "name": "-_training",
-      "stack": [
-        "HTML"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/-_training",
-      "repoName": "-_training",
-      "liveUrl": "https://kou56250046-cloud.github.io/-_training/",
-      "lastUpdated": "2025-11-13",
       "status": "active",
       "tags": [],
       "language": "HTML",

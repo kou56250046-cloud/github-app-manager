@@ -43,6 +43,21 @@ gh auth login
 | ⚠ 名前不一致 | ディレクトリ名とリポジトリ名が違う |
 | ⚠ GitHub側で確認できず | remote はあるが API で見つからない（private か削除済み） |
 
+### スタックで絞り込む
+
+サマリー行の右側に **Streamlit / FastAPI / Django / Flask** のチップが出る（該当が1件以上あるときだけ）。
+クリックでそのスタックだけに絞り込め、カード上のタグも色付きで表示される。
+`スタック: すべて` のセレクトからも同じ絞り込みができ、両者は連動する。
+
+Streamlit の判定は次のいずれかに当たったとき。サブディレクトリのツール（例: `tools/csv_converter/`）も
+拾えるよう **深さ2まで** 探索する。
+
+- `requirements*.txt` / `pyproject.toml` / `Pipfile` / `environment.yml` / `setup.py` / `setup.cfg` に記載がある
+  （行頭 `#` のコメント行は無視する）
+- ルート直下または1階層下の `.py` に `import streamlit` / `from streamlit ...` がある
+
+そのため、本体は Next.js でも付属ツールが Streamlit なら両方のタグが付く。
+
 カードをクリックすると詳細パネルが開き、概要・状態・タグ・公開URLを手動で上書きできる。
 手動設定は `data/projects-meta.json` に保存され、自動抽出より常に優先される。
 
@@ -76,7 +91,7 @@ GitHub の **Settings → Pages** で source を `main` / `/docs` に設定す�
 scripts/scan.mjs          スキャンのエントリポイント
 scripts/lib/localScan     ディレクトリ走査 + git 状態
 scripts/lib/githubScan    GitHub API（トークン検証つき・失敗時は public にフォールバック）
-scripts/lib/detectStack   スタック判定
+scripts/lib/detectStack   スタック判定（Streamlit 等の Python フレームワーク含む）
 scripts/lib/summarize     README 等からの概要抽出（テンプレ文は除外）
 scripts/lib/reconcile     ローカル↔GitHub の突き合わせ
 scripts/publish.mjs       公開版の生成
