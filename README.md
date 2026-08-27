@@ -85,6 +85,48 @@ Streamlit の判定は次のいずれかに当たったとき。サブディレ�
 
 GitHub の **Settings → Pages** で source を `main` / `/docs` に設定すると公開される。
 
+## 公開ページを更新する手順
+
+### 1. スキャン + 公開版の生成
+
+```bash
+pnpm publish:pages
+```
+
+このコマンドが内部でまとめて行うこと。
+
+1. ローカル走査 + GitHub 取得 → `data/projects.local.json`（gitignore 済み・コミット対象外）
+2. `vite build` で `docs/` に静的ファイルを出力（`docs/assets` は毎回削除して作り直す）
+3. 許可リスト `PUBLIC_FIELDS` で絞った `docs/projects.public.json` を書き出し
+4. 漏洩チェック — `localPath` / `dirtyFiles` / `branch` / `C:/Users` 等が混ざっていれば**その場で失敗**する
+
+`pnpm scan` 単体では `data/projects.local.json` が更新されるだけで公開ページには反映されない。
+**公開に必要なのは `publish:pages` の方**。
+
+### 2. 差分を確認
+
+```bash
+git status --short
+git diff docs/projects.public.json
+```
+
+`docs/` 以外に想定外の変更が出ていないか、公開 JSON にパスや作業状況が入っていないかを目視でも確認する。
+
+### 3. コミットして push
+
+```bash
+git add docs
+git add -A --dry-run   # .env や *.key が混ざっていないか事前確認
+git commit -m "プロジェクト一覧を更新"
+git push origin main
+```
+
+`git add -A` ではなく **`git add docs` とパスを限定する**。関係ない作業ファイルを巻き込まないため。
+
+### 4. 公開を確認
+
+`main` に push すると GitHub Pages が自動で再デプロイされる。1〜2分待ってから公開 URL を開く。
+
 ## 構成
 
 ```

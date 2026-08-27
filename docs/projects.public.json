@@ -1,7 +1,76 @@
 {
-  "generatedAt": "2026-08-25",
+  "generatedAt": "2026-08-27",
   "owner": "kou56250046-cloud",
   "projects": [
+    {
+      "key": "github-app-manager",
+      "name": "github-app-manager",
+      "summary": "ローカルのprojectsディレクトリとGitHubリポジトリを突き合わせ、カード形式で一覧・管理するダッシュボード",
+      "stack": [
+        "Vite"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/github-app-manager",
+      "repoName": "github-app-manager",
+      "liveUrl": "https://kou56250046-cloud.github.io/github-app-manager/",
+      "lastUpdated": "2026-08-27",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "brog-creator-web",
+      "name": "brog-creator-web",
+      "summary": "あわいの手帖 — 依存ゼロの静的サイトジェネレーター",
+      "stack": [
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/brog-creator-web",
+      "repoName": "brog-creator-web",
+      "liveUrl": "https://brog-creator-web.vercel.app",
+      "lastUpdated": "2026-08-27",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "aws-learning",
+      "name": "aws-learning",
+      "summary": "AWS の構成図を「眺める」のではなく、触って・流して・壊して 理解するための学習ツールです。",
+      "stack": [
+        "Python",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/aws-learning",
+      "repoName": "aws-learning",
+      "liveUrl": "https://kou56250046-cloud.github.io/aws-learning/",
+      "lastUpdated": "2026-08-27",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "brog-app-company",
+      "name": "brog-app-company",
+      "summary": "あわいの手帖 — 静的HTMLブログ（Next.js非使用）",
+      "stack": [
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/brog-app-company",
+      "repoName": "brog-app-company",
+      "liveUrl": "https://brog-app-company.vercel.app",
+      "lastUpdated": "2026-08-26",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
     {
       "key": "Debate-prompt",
       "name": "debate-app",
@@ -13,12 +82,29 @@
       "repoUrl": "https://github.com/kou56250046-cloud/Debate-prompt",
       "repoName": "Debate-prompt",
       "liveUrl": "https://kou56250046-cloud.github.io/Debate-prompt/",
-      "lastUpdated": "2026-08-24",
+      "lastUpdated": "2026-08-26",
       "status": "active",
       "tags": [],
       "language": "JavaScript",
       "isPrivate": false,
       "syncState": "synced"
+    },
+    {
+      "key": "self-log",
+      "name": "self-log",
+      "summary": "思ったことをその都度書き留めるための日報。書いた文は自動で5つに分けられ、 「何を・いつ・どれだけ書いているか」がダッシュボードで見える。",
+      "stack": [
+        "不明"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/self-log",
+      "repoName": "self-log",
+      "liveUrl": "https://kou56250046-cloud.github.io/self-log/",
+      "lastUpdated": "2026-08-26",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "attention"
     },
     {
       "key": "kakei-manager",
@@ -30,7 +116,25 @@
       "repoUrl": "https://github.com/kou56250046-cloud/kakei-manager",
       "repoName": "kakei-manager",
       "liveUrl": "https://kou56250046-cloud.github.io/kakei-manager/",
-      "lastUpdated": "2026-08-24",
+      "lastUpdated": "2026-08-26",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "shicyu-blog",
+      "name": "四柱推命鑑定",
+      "summary": "四柱推命鑑定ブログ — Five Agents × Claude Code で生成した鑑定記事を Vercel で公開",
+      "stack": [
+        "静的HTML",
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/shicyu-blog",
+      "repoName": "shicyu-blog",
+      "liveUrl": "https://shicyu-blog.vercel.app",
+      "lastUpdated": "2026-08-25",
       "status": "active",
       "tags": [],
       "language": "JavaScript",
@@ -66,23 +170,6 @@
       "language": "HTML",
       "isPrivate": false,
       "syncState": "synced"
-    },
-    {
-      "key": "github-app-manager",
-      "name": "github-app-manager",
-      "summary": "ローカルのprojectsディレクトリとGitHubリポジトリを突き合わせ、カード形式で一覧・管理するダッシュボード",
-      "stack": [
-        "Vite"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/github-app-manager",
-      "repoName": "github-app-manager",
-      "liveUrl": "https://kou56250046-cloud.github.io/github-app-manager/",
-      "lastUpdated": "2026-08-22",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "attention"
     },
     {
       "key": "project-review",
@@ -328,42 +415,6 @@
       "syncState": "synced"
     },
     {
-      "key": "brog-app-company",
-      "name": "brog-app-company",
-      "stack": [
-        "Next.js",
-        "TypeScript",
-        "Tailwind"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/brog-app-company",
-      "repoName": "brog-app-company",
-      "liveUrl": "https://brog-app-company.vercel.app",
-      "lastUpdated": "2026-07-08",
-      "status": "active",
-      "tags": [],
-      "language": "TypeScript",
-      "isPrivate": false,
-      "syncState": "attention"
-    },
-    {
-      "key": "brog-creator-web",
-      "name": "brog-creator-web",
-      "stack": [
-        "Next.js",
-        "TypeScript",
-        "Tailwind"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/brog-creator-web",
-      "repoName": "brog-creator-web",
-      "liveUrl": "https://brog-creator-web.vercel.app",
-      "lastUpdated": "2026-06-18",
-      "status": "active",
-      "tags": [],
-      "language": "TypeScript",
-      "isPrivate": false,
-      "syncState": "attention"
-    },
-    {
       "key": "church-event",
       "name": "church-events",
       "summary": "カテゴリー・検索・絞り込みで 5分以内 に教会イベントの企画書を確認できる個人用カタログアプリです。",
@@ -450,25 +501,6 @@
       "language": "HTML",
       "isPrivate": false,
       "syncState": "attention"
-    },
-    {
-      "key": "shicyu-blog",
-      "name": "四柱推命鑑定",
-      "summary": "四柱推命鑑定ブログ — Five Agents × Claude Code で生成した鑑定記事を Vercel で公開",
-      "stack": [
-        "Next.js",
-        "TypeScript",
-        "Tailwind"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/shicyu-blog",
-      "repoName": "shicyu-blog",
-      "liveUrl": "https://shicyu-blog.vercel.app",
-      "lastUpdated": "2026-06-09",
-      "status": "active",
-      "tags": [],
-      "language": "TypeScript",
-      "isPrivate": false,
-      "syncState": "synced"
     },
     {
       "key": "seijo-church",
@@ -720,38 +752,6 @@
       "repoName": "Youth-church-activity-report",
       "liveUrl": "https://kou56250046-cloud.github.io/Youth-church-activity-report/",
       "lastUpdated": "2025-12-09",
-      "status": "active",
-      "tags": [],
-      "language": "HTML",
-      "isPrivate": false,
-      "syncState": "remote-only"
-    },
-    {
-      "key": "day_calender",
-      "name": "day_calender",
-      "stack": [
-        "HTML"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/day_calender",
-      "repoName": "day_calender",
-      "liveUrl": "https://kou56250046-cloud.github.io/day_calender/",
-      "lastUpdated": "2025-12-03",
-      "status": "active",
-      "tags": [],
-      "language": "HTML",
-      "isPrivate": false,
-      "syncState": "remote-only"
-    },
-    {
-      "key": "BTR-record-sheets",
-      "name": "BTR-record-sheets",
-      "stack": [
-        "HTML"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/BTR-record-sheets",
-      "repoName": "BTR-record-sheets",
-      "liveUrl": "https://kou56250046-cloud.github.io/BTR-record-sheets/",
-      "lastUpdated": "2025-10-31",
       "status": "active",
       "tags": [],
       "language": "HTML",
