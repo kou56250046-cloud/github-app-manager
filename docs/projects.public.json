@@ -1,7 +1,127 @@
 {
-  "generatedAt": "2026-08-27",
+  "generatedAt": "2026-08-31",
   "owner": "kou56250046-cloud",
   "projects": [
+    {
+      "key": "prisner-training",
+      "name": "prisner-trainig",
+      "summary": "書籍『プリズナートレーニング』を、進捗管理とフォーム解説を兼ねた個人用アプリにしたもの。 完全ローカル動作・ログイン不要・無料運用。",
+      "stack": [
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind",
+        "GitHub Actions"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/prisner-training",
+      "repoName": "prisner-training",
+      "liveUrl": "https://kou56250046-cloud.github.io/prisner-training/",
+      "lastUpdated": "2026-08-31",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "brain-training",
+      "name": "shundoku",
+      "summary": "瞬読（速読）と記憶法を「学べて」「鍛えられる」一体型 Web トレーニングサイト。",
+      "stack": [
+        "PWA"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/brain-training",
+      "repoName": "brain-training",
+      "liveUrl": "https://kou56250046-cloud.github.io/brain-training/",
+      "lastUpdated": "2026-08-31",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "seijo-meeting-app",
+      "name": "seijo-meeting-app",
+      "summary": "青年活動ミーティングの議事録（docx）を、検索できる組織の記憶に変えるローカルアプリです。",
+      "stack": [
+        "Streamlit",
+        "Python"
+      ],
+      "lastUpdated": "2026-08-31",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "machiene-learning",
+      "name": "machiene-learning",
+      "summary": "スライダを動かすと決定境界・損失曲面・クラスタがその場で変わる、触って学ぶための ローカル完結型ダッシュボードです。完全無料・個人運用・サーバー不要。",
+      "stack": [
+        "Streamlit",
+        "Python"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/machiene-learning",
+      "repoName": "machiene-learning",
+      "lastUpdated": "2026-08-31",
+      "status": "active",
+      "tags": [],
+      "language": "Python",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "seijo-mapping",
+      "name": "seijo-mapping",
+      "summary": "Supabase・Cloudflare・Next.js を使わない構成に作り直したもの。 ビルドすると dist/index.html の 1ファイルになり、実行にサーバーもNodeも要らない。",
+      "stack": [
+        "Vite",
+        "TypeScript",
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/seijo-mapping",
+      "repoName": "seijo-mapping",
+      "liveUrl": "https://seijo-mapping.vercel.app",
+      "lastUpdated": "2026-08-30",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "note-automation-app",
+      "name": "note-automation",
+      "summary": "Claude Code で「ひとり出版社」を組み、リサーチから記事生成までを自動化するリポジトリ。",
+      "stack": [
+        "GitHub Actions"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/note-automation-app",
+      "repoName": "note-automation-app",
+      "liveUrl": "https://kou56250046-cloud.github.io/note-automation-app/",
+      "lastUpdated": "2026-08-29",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "Debate-prompt",
+      "name": "debate-app",
+      "summary": "議題をひとつ投げると、4人の論者と1名の司会が討論するプロンプトを生成し、 その討論結果を構造化して記録・可視化する、完全ローカルの個人ツール。 決まらなかったことは、そのまま続きの議論として同じ記録に積み増せる。",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/Debate-prompt",
+      "repoName": "Debate-prompt",
+      "liveUrl": "https://kou56250046-cloud.github.io/Debate-prompt/",
+      "lastUpdated": "2026-08-28",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
     {
       "key": "github-app-manager",
       "name": "github-app-manager",
@@ -72,24 +192,6 @@
       "syncState": "attention"
     },
     {
-      "key": "Debate-prompt",
-      "name": "debate-app",
-      "summary": "議題をひとつ投げると、4人の論者と1名の司会が討論するプロンプトを生成し、 その討論結果を構造化して記録・可視化する、完全ローカルの個人ツール。",
-      "stack": [
-        "PWA",
-        "静的HTML"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/Debate-prompt",
-      "repoName": "Debate-prompt",
-      "liveUrl": "https://kou56250046-cloud.github.io/Debate-prompt/",
-      "lastUpdated": "2026-08-26",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "synced"
-    },
-    {
       "key": "self-log",
       "name": "self-log",
       "summary": "思ったことをその都度書き留めるための日報。書いた文は自動で5つに分けられ、 「何を・いつ・どれだけ書いているか」がダッシュボードで見える。",
@@ -155,23 +257,6 @@
       "syncState": "local-only"
     },
     {
-      "key": "note-automation-app",
-      "name": "note-automation",
-      "summary": "Claude Code で「ひとり出版社」を組み、リサーチから記事生成までを自動化するリポジトリ。",
-      "stack": [
-        "GitHub Actions"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/note-automation-app",
-      "repoName": "note-automation-app",
-      "liveUrl": "https://kou56250046-cloud.github.io/note-automation-app/",
-      "lastUpdated": "2026-08-24",
-      "status": "active",
-      "tags": [],
-      "language": "HTML",
-      "isPrivate": false,
-      "syncState": "synced"
-    },
-    {
       "key": "project-review",
       "name": "project-review",
       "summary": "フォルダをまるごと読み込んで、構造・関係・中身をその場でレビューするローカル完結型ビューア",
@@ -206,23 +291,6 @@
       "language": "HTML",
       "isPrivate": false,
       "syncState": "synced"
-    },
-    {
-      "key": "brain-training",
-      "name": "shundoku",
-      "summary": "瞬読（速読）と記憶法を「学べて」「鍛えられる」一体型 Web トレーニングサイト。",
-      "stack": [
-        "PWA"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/brain-training",
-      "repoName": "brain-training",
-      "liveUrl": "https://kou56250046-cloud.github.io/brain-training/",
-      "lastUpdated": "2026-08-19",
-      "status": "active",
-      "tags": [],
-      "language": "HTML",
-      "isPrivate": false,
-      "syncState": "attention"
     },
     {
       "key": "centence-analyzer",
@@ -262,27 +330,6 @@
       "status": "active",
       "tags": [],
       "syncState": "local-only"
-    },
-    {
-      "key": "prisner-training",
-      "name": "prisner-trainig",
-      "summary": "書籍『プリズナートレーニング』を、進捗管理とフォーム解説を兼ねた個人用アプリにしたもの。 完全ローカル動作・ログイン不要・無料運用。",
-      "stack": [
-        "React",
-        "Vite",
-        "TypeScript",
-        "Tailwind",
-        "GitHub Actions"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/prisner-training",
-      "repoName": "prisner-training",
-      "liveUrl": "https://kou56250046-cloud.github.io/prisner-training/",
-      "lastUpdated": "2026-08-13",
-      "status": "active",
-      "tags": [],
-      "language": "TypeScript",
-      "isPrivate": false,
-      "syncState": "synced"
     },
     {
       "key": "scraping-pc",
@@ -566,26 +613,6 @@
       "status": "active",
       "tags": [],
       "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "attention"
-    },
-    {
-      "key": "seijo-mapping",
-      "name": "seijo-mapping",
-      "summary": "教会メンバーマップシステム — 教会メンバーの居住地を地図上に可視化し、近隣メンバー同士の交流を促進するツール。",
-      "stack": [
-        "Next.js",
-        "TypeScript",
-        "Tailwind",
-        "Streamlit"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/seijo-mapping",
-      "repoName": "seijo-mapping",
-      "liveUrl": "https://seijo-mapping.vercel.app",
-      "lastUpdated": "2026-06-03",
-      "status": "active",
-      "tags": [],
-      "language": "TypeScript",
       "isPrivate": false,
       "syncState": "attention"
     },
