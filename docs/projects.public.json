@@ -1,7 +1,100 @@
 {
-  "generatedAt": "2026-08-31",
+  "generatedAt": "2026-09-04",
   "owner": "kou56250046-cloud",
   "projects": [
+    {
+      "key": "github-app-manager",
+      "name": "github-app-manager",
+      "summary": "ローカルのprojectsディレクトリとGitHubリポジトリを突き合わせ、カード形式で一覧・管理するダッシュボード",
+      "stack": [
+        "Vite"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/github-app-manager",
+      "repoName": "github-app-manager",
+      "liveUrl": "https://kou56250046-cloud.github.io/github-app-manager/",
+      "lastUpdated": "2026-09-04",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "ai-dashboad",
+      "name": "ai-dashboad",
+      "summary": "よく使う生成AI・クリエイティブツールを1画面から起動し、使った記録が自動で貯まって可視化されるパーソナルダッシュボード。",
+      "stack": [
+        "静的HTML"
+      ],
+      "lastUpdated": "2026-09-04",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "ai-tech",
+      "name": "ai-tech",
+      "summary": "Claude Code のセッションログ（/.claude/projects//.jsonl）を解析し、 AI開発の品質・ハルシネーションリスク・再現性を実測してダッシュボード化する。 ローカル完結・外部送信なし・追加課金なし。",
+      "stack": [
+        "FastAPI",
+        "Python"
+      ],
+      "lastUpdated": "2026-09-03",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "kakei-manager",
+      "name": "kakei-manager",
+      "summary": "家計管理ダッシュボード（ローカル完結・依存パッケージゼロ）",
+      "stack": [
+        "Node.js"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/kakei-manager",
+      "repoName": "kakei-manager",
+      "liveUrl": "https://kou56250046-cloud.github.io/kakei-manager/",
+      "lastUpdated": "2026-09-03",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "area-mapping",
+      "name": "area-mapping",
+      "summary": "南東京エリアの教会メンバーの居住地を地図に出し、所属教会の違いが分かるようにするツール。 成城教会向けに作ったものを、エリア全体（11教会以上）へ広げた版。",
+      "stack": [
+        "Vite",
+        "TypeScript",
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/area-mapping",
+      "repoName": "area-mapping",
+      "liveUrl": "https://area-mapping.vercel.app",
+      "lastUpdated": "2026-09-02",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "machiene-learning",
+      "name": "machiene-learning",
+      "summary": "スライダを動かすと決定境界・損失曲面・クラスタがその場で変わる、触って学ぶための ローカル完結型ダッシュボードです。完全無料・個人運用・サーバー不要。",
+      "stack": [
+        "Streamlit",
+        "Python"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/machiene-learning",
+      "repoName": "machiene-learning",
+      "lastUpdated": "2026-08-31",
+      "status": "active",
+      "tags": [],
+      "language": "Python",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
     {
       "key": "prisner-training",
       "name": "prisner-trainig",
@@ -54,23 +147,6 @@
       "syncState": "local-only"
     },
     {
-      "key": "machiene-learning",
-      "name": "machiene-learning",
-      "summary": "スライダを動かすと決定境界・損失曲面・クラスタがその場で変わる、触って学ぶための ローカル完結型ダッシュボードです。完全無料・個人運用・サーバー不要。",
-      "stack": [
-        "Streamlit",
-        "Python"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/machiene-learning",
-      "repoName": "machiene-learning",
-      "lastUpdated": "2026-08-31",
-      "status": "active",
-      "tags": [],
-      "language": "Python",
-      "isPrivate": false,
-      "syncState": "attention"
-    },
-    {
       "key": "seijo-mapping",
       "name": "seijo-mapping",
       "summary": "Supabase・Cloudflare・Next.js を使わない構成に作り直したもの。 ビルドすると dist/index.html の 1ファイルになり、実行にサーバーもNodeも要らない。",
@@ -121,23 +197,6 @@
       "language": "JavaScript",
       "isPrivate": false,
       "syncState": "synced"
-    },
-    {
-      "key": "github-app-manager",
-      "name": "github-app-manager",
-      "summary": "ローカルのprojectsディレクトリとGitHubリポジトリを突き合わせ、カード形式で一覧・管理するダッシュボード",
-      "stack": [
-        "Vite"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/github-app-manager",
-      "repoName": "github-app-manager",
-      "liveUrl": "https://kou56250046-cloud.github.io/github-app-manager/",
-      "lastUpdated": "2026-08-27",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "attention"
     },
     {
       "key": "brog-creator-web",
@@ -201,23 +260,6 @@
       "repoUrl": "https://github.com/kou56250046-cloud/self-log",
       "repoName": "self-log",
       "liveUrl": "https://kou56250046-cloud.github.io/self-log/",
-      "lastUpdated": "2026-08-26",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "attention"
-    },
-    {
-      "key": "kakei-manager",
-      "name": "kakei-manager",
-      "summary": "家計管理ダッシュボード（ローカル完結・依存パッケージゼロ）",
-      "stack": [
-        "Node.js"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/kakei-manager",
-      "repoName": "kakei-manager",
-      "liveUrl": "https://kou56250046-cloud.github.io/kakei-manager/",
       "lastUpdated": "2026-08-26",
       "status": "active",
       "tags": [],
