@@ -1,7 +1,212 @@
 {
-  "generatedAt": "2026-09-04",
+  "generatedAt": "2026-09-19",
   "owner": "kou56250046-cloud",
   "projects": [
+    {
+      "key": "weather-analysis",
+      "name": "weather-analysis",
+      "summary": "マルチモデル合議と統計補正による天気予報と、過去気象データの分析ダッシュボード",
+      "stack": [
+        "GitHub Actions"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/weather-analysis",
+      "repoName": "weather-analysis",
+      "liveUrl": "https://kou56250046-cloud.github.io/weather-analysis/",
+      "lastUpdated": "2026-09-19",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "machiene-learning",
+      "name": "machiene-learning",
+      "summary": "スライダを動かすと決定境界・損失曲面・クラスタがその場で変わる、触って学ぶための ローカル完結型ダッシュボードです。完全無料・個人運用・サーバー不要。",
+      "stack": [
+        "Streamlit",
+        "Python"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/machiene-learning",
+      "repoName": "machiene-learning",
+      "lastUpdated": "2026-09-19",
+      "status": "active",
+      "tags": [],
+      "language": "Python",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "kakei-manager",
+      "name": "kakei-manager",
+      "summary": "家計管理ダッシュボード（ローカル完結・依存パッケージゼロ）",
+      "stack": [
+        "Node.js"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/kakei-manager",
+      "repoName": "kakei-manager",
+      "liveUrl": "https://kou56250046-cloud.github.io/kakei-manager/",
+      "lastUpdated": "2026-09-18",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "future-prediction",
+      "name": "future-prediction",
+      "summary": "AIの進化と仕事のニーズ変化を定点観測し、自分の予測をベースラインと比べて採点するローカル完結のシステム",
+      "stack": [
+        "Node.js"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/future-prediction",
+      "repoName": "future-prediction",
+      "liveUrl": "https://kou56250046-cloud.github.io/future-prediction/",
+      "lastUpdated": "2026-09-18",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "brog-app-company",
+      "name": "brog-app-company",
+      "summary": "あわいの手帖 — 静的HTMLブログ（Next.js非使用）",
+      "stack": [
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/brog-app-company",
+      "repoName": "brog-app-company",
+      "liveUrl": "https://brog-app-company.vercel.app",
+      "lastUpdated": "2026-09-17",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "brog-creator-web",
+      "name": "brog-creator-web",
+      "summary": "あわいの手帖 — 依存ゼロの静的サイトジェネレーター",
+      "stack": [
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/brog-creator-web",
+      "repoName": "brog-creator-web",
+      "liveUrl": "https://brog-creator-web.vercel.app",
+      "lastUpdated": "2026-09-17",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "ai-tech",
+      "name": "ai-tech",
+      "summary": "Claude Code のセッションログ（/.claude/projects//.jsonl）を解析し、 AI開発の品質・ハルシネーションリスク・再現性を実測してダッシュボード化する。 ローカル完結・外部送信なし・追加課金なし。",
+      "stack": [
+        "FastAPI",
+        "Python"
+      ],
+      "lastUpdated": "2026-09-17",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "claude-manager",
+      "name": "claude-manager",
+      "summary": "Claude Code の Skill・Subagent を診断する CLI (Phase 1: 現在地の可視化)",
+      "stack": [
+        "TypeScript"
+      ],
+      "lastUpdated": "2026-09-17",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "baby-church",
+      "name": "baby-charch",
+      "summary": "毎月第3日曜に開催する幼児礼拝（幼児部6家庭・全体15分）の運営を回すためのアプリです。 アジェンダづくり → LINE告知 → 当日の進行 → 記録 までを1か所でまとめます。",
+      "stack": [
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind",
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/baby-church",
+      "repoName": "baby-church",
+      "liveUrl": "https://baby-church.vercel.app",
+      "lastUpdated": "2026-09-07",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "ai-scraping",
+      "name": "ai-scraping",
+      "summary": "Claude / Claude Code / ChatGPT / Gemini / GitHub Copilot の更新を集めて、 自分の使い方が古くなっていないかを見張るローカル用ダッシュボード。",
+      "stack": [
+        "TypeScript"
+      ],
+      "lastUpdated": "2026-09-05",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "seijo-mapping",
+      "name": "seijo-mapping",
+      "summary": "Supabase・Cloudflare・Next.js を使わない構成に作り直したもの。 ビルドすると dist/index.html の 1ファイルになり、実行にサーバーもNodeも要らない。",
+      "stack": [
+        "Vite",
+        "TypeScript",
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/seijo-mapping",
+      "repoName": "seijo-mapping",
+      "liveUrl": "https://seijo-mapping.vercel.app",
+      "lastUpdated": "2026-09-05",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "Debate-prompt",
+      "name": "debate-app",
+      "summary": "議題をひとつ投げると、4人の論者と1名の司会が討論するプロンプトを生成し、 その討論結果を構造化して記録・可視化する、完全ローカルの個人ツール。 決まらなかったことは、そのまま続きの議論として同じ記録に積み増せる。",
+      "stack": [
+        "PWA",
+        "静的HTML"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/Debate-prompt",
+      "repoName": "Debate-prompt",
+      "liveUrl": "https://kou56250046-cloud.github.io/Debate-prompt/",
+      "lastUpdated": "2026-09-04",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "centence-analyzer",
+      "name": "centence-analyzer",
+      "summary": "書籍のOCRテキストから実例（体験談・逸話）を抽出し、カテゴリを付けて検索できる 単一HTMLファイルにまとめる。",
+      "stack": [
+        "不明"
+      ],
+      "lastUpdated": "2026-09-04",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
     {
       "key": "github-app-manager",
       "name": "github-app-manager",
@@ -32,36 +237,6 @@
       "syncState": "local-only"
     },
     {
-      "key": "ai-tech",
-      "name": "ai-tech",
-      "summary": "Claude Code のセッションログ（/.claude/projects//.jsonl）を解析し、 AI開発の品質・ハルシネーションリスク・再現性を実測してダッシュボード化する。 ローカル完結・外部送信なし・追加課金なし。",
-      "stack": [
-        "FastAPI",
-        "Python"
-      ],
-      "lastUpdated": "2026-09-03",
-      "status": "active",
-      "tags": [],
-      "syncState": "local-only"
-    },
-    {
-      "key": "kakei-manager",
-      "name": "kakei-manager",
-      "summary": "家計管理ダッシュボード（ローカル完結・依存パッケージゼロ）",
-      "stack": [
-        "Node.js"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/kakei-manager",
-      "repoName": "kakei-manager",
-      "liveUrl": "https://kou56250046-cloud.github.io/kakei-manager/",
-      "lastUpdated": "2026-09-03",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "synced"
-    },
-    {
       "key": "area-mapping",
       "name": "area-mapping",
       "summary": "南東京エリアの教会メンバーの居住地を地図に出し、所属教会の違いが分かるようにするツール。 成城教会向けに作ったものを、エリア全体（11教会以上）へ広げた版。",
@@ -77,23 +252,6 @@
       "status": "active",
       "tags": [],
       "syncState": "local-only"
-    },
-    {
-      "key": "machiene-learning",
-      "name": "machiene-learning",
-      "summary": "スライダを動かすと決定境界・損失曲面・クラスタがその場で変わる、触って学ぶための ローカル完結型ダッシュボードです。完全無料・個人運用・サーバー不要。",
-      "stack": [
-        "Streamlit",
-        "Python"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/machiene-learning",
-      "repoName": "machiene-learning",
-      "lastUpdated": "2026-08-31",
-      "status": "active",
-      "tags": [],
-      "language": "Python",
-      "isPrivate": false,
-      "syncState": "attention"
     },
     {
       "key": "prisner-training",
@@ -131,7 +289,7 @@
       "tags": [],
       "language": "HTML",
       "isPrivate": false,
-      "syncState": "synced"
+      "syncState": "attention"
     },
     {
       "key": "seijo-meeting-app",
@@ -142,23 +300,6 @@
         "Python"
       ],
       "lastUpdated": "2026-08-31",
-      "status": "active",
-      "tags": [],
-      "syncState": "local-only"
-    },
-    {
-      "key": "seijo-mapping",
-      "name": "seijo-mapping",
-      "summary": "Supabase・Cloudflare・Next.js を使わない構成に作り直したもの。 ビルドすると dist/index.html の 1ファイルになり、実行にサーバーもNodeも要らない。",
-      "stack": [
-        "Vite",
-        "TypeScript",
-        "Vercel"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/seijo-mapping",
-      "repoName": "seijo-mapping",
-      "liveUrl": "https://seijo-mapping.vercel.app",
-      "lastUpdated": "2026-08-30",
       "status": "active",
       "tags": [],
       "syncState": "local-only"
@@ -177,41 +318,6 @@
       "status": "active",
       "tags": [],
       "language": "HTML",
-      "isPrivate": false,
-      "syncState": "synced"
-    },
-    {
-      "key": "Debate-prompt",
-      "name": "debate-app",
-      "summary": "議題をひとつ投げると、4人の論者と1名の司会が討論するプロンプトを生成し、 その討論結果を構造化して記録・可視化する、完全ローカルの個人ツール。 決まらなかったことは、そのまま続きの議論として同じ記録に積み増せる。",
-      "stack": [
-        "PWA",
-        "静的HTML"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/Debate-prompt",
-      "repoName": "Debate-prompt",
-      "liveUrl": "https://kou56250046-cloud.github.io/Debate-prompt/",
-      "lastUpdated": "2026-08-28",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "synced"
-    },
-    {
-      "key": "brog-creator-web",
-      "name": "brog-creator-web",
-      "summary": "あわいの手帖 — 依存ゼロの静的サイトジェネレーター",
-      "stack": [
-        "Vercel"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/brog-creator-web",
-      "repoName": "brog-creator-web",
-      "liveUrl": "https://brog-creator-web.vercel.app",
-      "lastUpdated": "2026-08-27",
-      "status": "active",
-      "tags": [],
-      "language": "TypeScript",
       "isPrivate": false,
       "syncState": "attention"
     },
@@ -232,23 +338,6 @@
       "language": "JavaScript",
       "isPrivate": false,
       "syncState": "synced"
-    },
-    {
-      "key": "brog-app-company",
-      "name": "brog-app-company",
-      "summary": "あわいの手帖 — 静的HTMLブログ（Next.js非使用）",
-      "stack": [
-        "Vercel"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/brog-app-company",
-      "repoName": "brog-app-company",
-      "liveUrl": "https://brog-app-company.vercel.app",
-      "lastUpdated": "2026-08-26",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "attention"
     },
     {
       "key": "self-log",
@@ -333,18 +422,6 @@
       "language": "HTML",
       "isPrivate": false,
       "syncState": "synced"
-    },
-    {
-      "key": "centence-analyzer",
-      "name": "centence-analyzer",
-      "summary": "書籍のOCRテキストから実例（体験談・逸話）を抽出し、カテゴリを付けて検索できる 単一HTMLファイルにまとめる。",
-      "stack": [
-        "不明"
-      ],
-      "lastUpdated": "2026-08-19",
-      "status": "active",
-      "tags": [],
-      "syncState": "local-only"
     },
     {
       "key": "strech-app",
@@ -673,7 +750,7 @@
       "tags": [],
       "language": "HTML",
       "isPrivate": false,
-      "syncState": "synced"
+      "syncState": "attention"
     },
     {
       "key": "shundoku",
