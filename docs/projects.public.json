@@ -1,16 +1,51 @@
 {
-  "generatedAt": "2026-09-20",
+  "generatedAt": "2026-09-22",
   "owner": "kou56250046-cloud",
   "projects": [
     {
       "key": "god-thinking",
       "name": "god-thinking",
       "stack": [
+        "PWA",
         "静的HTML"
       ],
       "repoUrl": "https://github.com/kou56250046-cloud/god-thinking",
       "repoName": "god-thinking",
       "liveUrl": "https://kou56250046-cloud.github.io/god-thinking/",
+      "lastUpdated": "2026-09-22",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "weather-analysis",
+      "name": "weather-analysis",
+      "summary": "マルチモデル合議と統計補正による天気予報と、過去気象データの分析ダッシュボード",
+      "stack": [
+        "GitHub Actions"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/weather-analysis",
+      "repoName": "weather-analysis",
+      "liveUrl": "https://kou56250046-cloud.github.io/weather-analysis/",
+      "lastUpdated": "2026-09-21",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "synced"
+    },
+    {
+      "key": "github-app-manager",
+      "name": "github-app-manager",
+      "summary": "ローカルのprojectsディレクトリとGitHubリポジトリを突き合わせ、カード形式で一覧・管理するダッシュボード",
+      "stack": [
+        "Vite"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/github-app-manager",
+      "repoName": "github-app-manager",
+      "liveUrl": "https://kou56250046-cloud.github.io/github-app-manager/",
       "lastUpdated": "2026-09-20",
       "status": "active",
       "tags": [],
@@ -31,40 +66,6 @@
       "status": "active",
       "tags": [],
       "syncState": "local-only"
-    },
-    {
-      "key": "weather-analysis",
-      "name": "weather-analysis",
-      "summary": "マルチモデル合議と統計補正による天気予報と、過去気象データの分析ダッシュボード",
-      "stack": [
-        "GitHub Actions"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/weather-analysis",
-      "repoName": "weather-analysis",
-      "liveUrl": "https://kou56250046-cloud.github.io/weather-analysis/",
-      "lastUpdated": "2026-09-19",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "synced"
-    },
-    {
-      "key": "github-app-manager",
-      "name": "github-app-manager",
-      "summary": "ローカルのprojectsディレクトリとGitHubリポジトリを突き合わせ、カード形式で一覧・管理するダッシュボード",
-      "stack": [
-        "Vite"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/github-app-manager",
-      "repoName": "github-app-manager",
-      "liveUrl": "https://kou56250046-cloud.github.io/github-app-manager/",
-      "lastUpdated": "2026-09-19",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "attention"
     },
     {
       "key": "machiene-learning",
