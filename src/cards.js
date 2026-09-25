@@ -64,6 +64,26 @@ function renderCard(p, onOpen) {
     a.addEventListener('click', (e) => e.stopPropagation());
     foot.append(a);
   }
+  // ローカル起動ポート（~/projects/PORTS.md）。複数あっても 1 か所にまとめる
+  if (p.ports?.length) {
+    const wrap = el('span', 'card__ports');
+    for (const pt of p.ports) {
+      if (/^https?:\/\//.test(pt.url)) {
+        const a = el('a', 'card__link', `:${pt.port} ↗`);
+        a.href = pt.url;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        if (pt.label) a.title = pt.label;
+        a.addEventListener('click', (e) => e.stopPropagation());
+        wrap.append(a);
+      } else {
+        const s = el('span', null, `:${pt.port}`);
+        s.title = [pt.label, pt.url].filter(Boolean).join(' / ');
+        wrap.append(s);
+      }
+    }
+    foot.append(wrap);
+  }
 
   card.append(head, summary, tags, foot);
   card.addEventListener('click', () => onOpen(p));

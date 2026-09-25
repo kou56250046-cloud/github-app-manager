@@ -59,6 +59,8 @@ async function main() {
   const raw = await fs.readFile(dest, 'utf8');
   const forbidden = ['localPath', 'localDir', 'dirtyFiles', 'dirtyCount', 'branch', 'ahead', 'behind', 'lastLocalMtime', 'summarySource', 'C:/Users'];
   const leaked = forbidden.filter((k) => raw.includes(k));
+  // "ports" はタグ等の本文にも現れうるので、文字列ではなくキーの有無で見る
+  if (JSON.parse(raw).projects.some((p) => 'ports' in p)) leaked.push('ports');
   if (leaked.length) throw new Error(`公開版に含めてはいけない情報が混入しています: ${leaked.join(', ')}`);
 
   console.log(`公開版を書き出しました: ${dest}`);

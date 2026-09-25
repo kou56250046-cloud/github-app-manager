@@ -164,6 +164,11 @@ body {
 }
 .card__link { color: var(--accent); text-decoration: none; }
 .card__link:hover { text-decoration: underline; }
+/* 日付を左、公開ページとポートを右に寄せる（3 要素でも中央に散らばらないように） */
+.card__foot > :first-child { margin-right: auto; }
+.card__ports { display: inline-flex; gap: 8px; }
+.ports { display: grid; gap: 4px; }
+.ports__row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; }
 
 .empty { grid-column: 1 / -1; padding: 48px 0; text-align: center; color: var(--text-dim); }
 

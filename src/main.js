@@ -106,7 +106,7 @@ function renderStackOptions() {
 }
 
 function renderWarnings() {
-  const warns = data.github?.warnings ?? [];
+  const warns = [...(data.github?.warnings ?? []), ...(data.warnings ?? [])];
   dom.warnings.replaceChildren();
   dom.warnings.hidden = !warns.length;
   for (const w of warns) {

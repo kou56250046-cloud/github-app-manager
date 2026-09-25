@@ -25,6 +25,22 @@ function link(href, text) {
   return a;
 }
 
+/** ローカル起動ポート（~/projects/PORTS.md）。1 ポート 1 行。無ければ null で行ごと出さない */
+function portList(ports) {
+  if (!ports?.length) return null;
+  const wrap = el('div', 'ports');
+  for (const pt of ports) {
+    const row = el('div', 'ports__row');
+    const web = /^https?:\/\//.test(pt.url);
+    row.append(web ? link(pt.url, `:${pt.port}`) : el('span', null, `:${pt.port}（${pt.url}）`));
+    if (pt.label) row.append(el('span', null, pt.label));
+    if (pt.command) row.append(el('code', null, pt.command));
+    if (pt.config) row.append(el('span', 'hint', pt.config));
+    wrap.append(row);
+  }
+  return wrap;
+}
+
 /** 概要・状態・タグの手動上書きフォーム */
 function metaSection(p, onData) {
   const sec = el('section');
@@ -151,6 +167,7 @@ export function renderDetail(panel, p, { onClose, onData }) {
     ['ローカル', p.localPath ?? '未取得'],
     ['リポジトリ', p.repoUrl ? link(p.repoUrl, p.repoName) : '未登録'],
     ['公開URL', p.liveUrl ? link(p.liveUrl, p.liveUrl) : null],
+    ['ローカル起動', portList(p.ports)],
     ['スタック', (p.stack ?? []).join(' / ') || null],
     ['ブランチ', p.branch],
     ['差分', p.hasUpstream ? `未push ${p.ahead} / 未取得 ${p.behind}` : (p.hasGit ? 'upstream 未設定' : null)],
