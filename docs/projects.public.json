@@ -1,23 +1,235 @@
 {
-  "generatedAt": "2026-09-22",
+  "generatedAt": "2026-09-25",
   "owner": "kou56250046-cloud",
   "projects": [
     {
-      "key": "god-thinking",
-      "name": "god-thinking",
+      "key": "github-app-manager",
+      "name": "github-app-manager",
+      "summary": "ローカルのprojectsディレクトリとGitHubリポジトリを突き合わせ、カード形式で一覧・管理するダッシュボード",
       "stack": [
-        "PWA",
-        "静的HTML"
+        "Vite"
       ],
-      "repoUrl": "https://github.com/kou56250046-cloud/god-thinking",
-      "repoName": "god-thinking",
-      "liveUrl": "https://kou56250046-cloud.github.io/god-thinking/",
-      "lastUpdated": "2026-09-22",
+      "repoUrl": "https://github.com/kou56250046-cloud/github-app-manager",
+      "repoName": "github-app-manager",
+      "liveUrl": "https://kou56250046-cloud.github.io/github-app-manager/",
+      "lastUpdated": "2026-09-25",
       "status": "active",
       "tags": [],
       "language": "JavaScript",
       "isPrivate": false,
-      "syncState": "synced"
+      "syncState": "attention"
+    },
+    {
+      "key": "seijo-mapping",
+      "name": "seijo-mapping",
+      "summary": "Supabase・Cloudflare・Next.js を使わない構成に作り直したもの。 ビルドすると dist/index.html の 1ファイルになり、実行にサーバーもNodeも要らない。",
+      "stack": [
+        "Vite",
+        "TypeScript",
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/seijo-mapping",
+      "repoName": "seijo-mapping",
+      "liveUrl": "https://seijo-mapping.vercel.app",
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "syncState": "attention"
+    },
+    {
+      "key": "prisner-training",
+      "name": "prisner-trainig",
+      "summary": "書籍『プリズナートレーニング』を、進捗管理とフォーム解説を兼ねた個人用アプリにしたもの。 完全ローカル動作・ログイン不要・無料運用。",
+      "stack": [
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind",
+        "GitHub Actions"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/prisner-training",
+      "repoName": "prisner-training",
+      "liveUrl": "https://kou56250046-cloud.github.io/prisner-training/",
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "baby-church",
+      "name": "baby-charch",
+      "summary": "毎月第3日曜に開催する幼児礼拝（幼児部6家庭・全体15分）の運営を回すためのアプリです。 アジェンダづくり → LINE告知 → 当日の進行 → 記録 までを1か所でまとめます。",
+      "stack": [
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind",
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/baby-church",
+      "repoName": "baby-church",
+      "liveUrl": "https://baby-church.vercel.app",
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "syncState": "attention"
+    },
+    {
+      "key": "area-mapping",
+      "name": "area-mapping",
+      "summary": "南東京エリアの教会メンバーの居住地を地図に出し、所属教会の違いが分かるようにするツール。 成城教会向けに作ったものを、エリア全体（11教会以上）へ広げた版。",
+      "stack": [
+        "Vite",
+        "TypeScript",
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/area-mapping",
+      "repoName": "area-mapping",
+      "liveUrl": "https://area-mapping.vercel.app",
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "syncState": "attention"
+    },
+    {
+      "key": "virtual-tensin",
+      "name": "virtural-tensinen",
+      "summary": "天心苑祈祷会のバーチャル共在システム。参加者がアバターとして俯瞰空間に集まり、存在感を共有しながら祈祷会に参加できる。",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/virtual-tensin",
+      "repoName": "virtual-tensin",
+      "liveUrl": "https://virtual-tensin.vercel.app",
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "brog-creator-web",
+      "name": "brog-creator-web",
+      "summary": "あわいの手帖 — 依存ゼロの静的サイトジェネレーター",
+      "stack": [
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/brog-creator-web",
+      "repoName": "brog-creator-web",
+      "liveUrl": "https://brog-creator-web.vercel.app",
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "language": "TypeScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "note-automation-app",
+      "name": "note-automation",
+      "summary": "Claude Code で「ひとり出版社」を組み、リサーチから記事生成までを自動化するリポジトリ。",
+      "stack": [
+        "GitHub Actions"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/note-automation-app",
+      "repoName": "note-automation-app",
+      "liveUrl": "https://kou56250046-cloud.github.io/note-automation-app/",
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "language": "HTML",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "scraping-pc",
+      "name": "scraping-pc",
+      "summary": "パソコン工房・じゃんぱら・イオシスを横断検索し、条件で絞り込む。 デスクトップPC・ノートPC・iPhone/iPad・メモリ・SSD に対応。",
+      "stack": [
+        "Streamlit",
+        "Python"
+      ],
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "scraipng-diy",
+      "name": "scraipng-diy",
+      "summary": "DIYで木材を買うとき「どこが一番安いか」を探す手間をなくすためのローカルツール。",
+      "stack": [
+        "Streamlit",
+        "Python"
+      ],
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "file-cleaning",
+      "name": "file-cleaning",
+      "summary": "PC内のデータを可視化し、ストレージを圧迫している原因を発見し、安全に整理するためのストレージ管理ダッシュボード",
+      "stack": [
+        "Electron",
+        "Vite",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "project-review",
+      "name": "project-review",
+      "summary": "フォルダをまるごと読み込んで、構造・関係・中身をその場でレビューするローカル完結型ビューア",
+      "stack": [
+        "Vite",
+        "GitHub Actions"
+      ],
+      "repoUrl": "https://github.com/kou56250046-cloud/project-review",
+      "repoName": "project-review",
+      "liveUrl": "https://kou56250046-cloud.github.io/project-review/",
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "language": "JavaScript",
+      "isPrivate": false,
+      "syncState": "attention"
+    },
+    {
+      "key": "house-scraping",
+      "name": "house-scraping",
+      "summary": "東京都の売買物件（新築/中古マンション・新築/中古戸建て）を 1 か所に集め、手元で絞り込むツール。",
+      "stack": [
+        "Streamlit",
+        "Python"
+      ],
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "money-simulator",
+      "name": "money-simulator",
+      "summary": "貯金・NISA・ふるさと納税などを、自分の数字で試して理解するためのローカルアプリです。 「どれが良いのか」「どのくらい増えるのか」「いくら回すべきか」「預金とどちらが得か」を確かめられます。",
+      "stack": [
+        "Streamlit",
+        "Python"
+      ],
+      "lastUpdated": "2026-09-25",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
     },
     {
       "key": "weather-analysis",
@@ -29,7 +241,7 @@
       "repoUrl": "https://github.com/kou56250046-cloud/weather-analysis",
       "repoName": "weather-analysis",
       "liveUrl": "https://kou56250046-cloud.github.io/weather-analysis/",
-      "lastUpdated": "2026-09-21",
+      "lastUpdated": "2026-09-24",
       "status": "active",
       "tags": [],
       "language": "JavaScript",
@@ -37,21 +249,46 @@
       "syncState": "synced"
     },
     {
-      "key": "github-app-manager",
-      "name": "github-app-manager",
-      "summary": "ローカルのprojectsディレクトリとGitHubリポジトリを突き合わせ、カード形式で一覧・管理するダッシュボード",
+      "key": "god-thinking",
+      "name": "god-thinking",
       "stack": [
-        "Vite"
+        "PWA",
+        "静的HTML"
       ],
-      "repoUrl": "https://github.com/kou56250046-cloud/github-app-manager",
-      "repoName": "github-app-manager",
-      "liveUrl": "https://kou56250046-cloud.github.io/github-app-manager/",
-      "lastUpdated": "2026-09-20",
+      "repoUrl": "https://github.com/kou56250046-cloud/god-thinking",
+      "repoName": "god-thinking",
+      "liveUrl": "https://kou56250046-cloud.github.io/god-thinking/",
+      "lastUpdated": "2026-09-24",
       "status": "active",
       "tags": [],
       "language": "JavaScript",
       "isPrivate": false,
-      "syncState": "attention"
+      "syncState": "synced"
+    },
+    {
+      "key": "seijo-meeting-app",
+      "name": "seijo-meeting-app",
+      "summary": "青年活動ミーティングの議事録（docx）を、検索できる組織の記憶に変えるローカルアプリです。",
+      "stack": [
+        "Streamlit",
+        "Python"
+      ],
+      "lastUpdated": "2026-09-24",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
+    },
+    {
+      "key": "claude-manager",
+      "name": "claude-manager",
+      "summary": "Claude Code の Skill・Subagent を診断する CLI (Phase 1: 現在地の可視化)",
+      "stack": [
+        "TypeScript"
+      ],
+      "lastUpdated": "2026-09-24",
+      "status": "active",
+      "tags": [],
+      "syncState": "local-only"
     },
     {
       "key": "centence-analyzer",
@@ -62,10 +299,10 @@
       ],
       "repoUrl": "https://github.com/kou56250046-cloud/centence-analyzer",
       "repoName": "centence-analyzer",
-      "lastUpdated": "2026-09-20",
+      "lastUpdated": "2026-09-24",
       "status": "active",
       "tags": [],
-      "syncState": "local-only"
+      "syncState": "attention"
     },
     {
       "key": "machiene-learning",
@@ -136,23 +373,6 @@
       "syncState": "attention"
     },
     {
-      "key": "brog-creator-web",
-      "name": "brog-creator-web",
-      "summary": "あわいの手帖 — 依存ゼロの静的サイトジェネレーター",
-      "stack": [
-        "Vercel"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/brog-creator-web",
-      "repoName": "brog-creator-web",
-      "liveUrl": "https://brog-creator-web.vercel.app",
-      "lastUpdated": "2026-09-17",
-      "status": "active",
-      "tags": [],
-      "language": "TypeScript",
-      "isPrivate": false,
-      "syncState": "attention"
-    },
-    {
       "key": "ai-tech",
       "name": "ai-tech",
       "summary": "Claude Code のセッションログ（/.claude/projects//.jsonl）を解析し、 AI開発の品質・ハルシネーションリスク・再現性を実測してダッシュボード化する。 ローカル完結・外部送信なし・追加課金なし。",
@@ -166,60 +386,12 @@
       "syncState": "local-only"
     },
     {
-      "key": "claude-manager",
-      "name": "claude-manager",
-      "summary": "Claude Code の Skill・Subagent を診断する CLI (Phase 1: 現在地の可視化)",
-      "stack": [
-        "TypeScript"
-      ],
-      "lastUpdated": "2026-09-17",
-      "status": "active",
-      "tags": [],
-      "syncState": "local-only"
-    },
-    {
-      "key": "baby-church",
-      "name": "baby-charch",
-      "summary": "毎月第3日曜に開催する幼児礼拝（幼児部6家庭・全体15分）の運営を回すためのアプリです。 アジェンダづくり → LINE告知 → 当日の進行 → 記録 までを1か所でまとめます。",
-      "stack": [
-        "React",
-        "Vite",
-        "TypeScript",
-        "Tailwind",
-        "Vercel"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/baby-church",
-      "repoName": "baby-church",
-      "liveUrl": "https://baby-church.vercel.app",
-      "lastUpdated": "2026-09-07",
-      "status": "active",
-      "tags": [],
-      "syncState": "local-only"
-    },
-    {
       "key": "ai-scraping",
       "name": "ai-scraping",
       "summary": "Claude / Claude Code / ChatGPT / Gemini / GitHub Copilot の更新を集めて、 自分の使い方が古くなっていないかを見張るローカル用ダッシュボード。",
       "stack": [
         "TypeScript"
       ],
-      "lastUpdated": "2026-09-05",
-      "status": "active",
-      "tags": [],
-      "syncState": "local-only"
-    },
-    {
-      "key": "seijo-mapping",
-      "name": "seijo-mapping",
-      "summary": "Supabase・Cloudflare・Next.js を使わない構成に作り直したもの。 ビルドすると dist/index.html の 1ファイルになり、実行にサーバーもNodeも要らない。",
-      "stack": [
-        "Vite",
-        "TypeScript",
-        "Vercel"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/seijo-mapping",
-      "repoName": "seijo-mapping",
-      "liveUrl": "https://seijo-mapping.vercel.app",
       "lastUpdated": "2026-09-05",
       "status": "active",
       "tags": [],
@@ -256,44 +428,6 @@
       "syncState": "local-only"
     },
     {
-      "key": "area-mapping",
-      "name": "area-mapping",
-      "summary": "南東京エリアの教会メンバーの居住地を地図に出し、所属教会の違いが分かるようにするツール。 成城教会向けに作ったものを、エリア全体（11教会以上）へ広げた版。",
-      "stack": [
-        "Vite",
-        "TypeScript",
-        "Vercel"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/area-mapping",
-      "repoName": "area-mapping",
-      "liveUrl": "https://area-mapping.vercel.app",
-      "lastUpdated": "2026-09-02",
-      "status": "active",
-      "tags": [],
-      "syncState": "local-only"
-    },
-    {
-      "key": "prisner-training",
-      "name": "prisner-trainig",
-      "summary": "書籍『プリズナートレーニング』を、進捗管理とフォーム解説を兼ねた個人用アプリにしたもの。 完全ローカル動作・ログイン不要・無料運用。",
-      "stack": [
-        "React",
-        "Vite",
-        "TypeScript",
-        "Tailwind",
-        "GitHub Actions"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/prisner-training",
-      "repoName": "prisner-training",
-      "liveUrl": "https://kou56250046-cloud.github.io/prisner-training/",
-      "lastUpdated": "2026-08-31",
-      "status": "active",
-      "tags": [],
-      "language": "TypeScript",
-      "isPrivate": false,
-      "syncState": "synced"
-    },
-    {
       "key": "brain-training",
       "name": "shundoku",
       "summary": "瞬読（速読）と記憶法を「学べて」「鍛えられる」一体型 Web トレーニングサイト。",
@@ -304,36 +438,6 @@
       "repoName": "brain-training",
       "liveUrl": "https://kou56250046-cloud.github.io/brain-training/",
       "lastUpdated": "2026-08-31",
-      "status": "active",
-      "tags": [],
-      "language": "HTML",
-      "isPrivate": false,
-      "syncState": "attention"
-    },
-    {
-      "key": "seijo-meeting-app",
-      "name": "seijo-meeting-app",
-      "summary": "青年活動ミーティングの議事録（docx）を、検索できる組織の記憶に変えるローカルアプリです。",
-      "stack": [
-        "Streamlit",
-        "Python"
-      ],
-      "lastUpdated": "2026-08-31",
-      "status": "active",
-      "tags": [],
-      "syncState": "local-only"
-    },
-    {
-      "key": "note-automation-app",
-      "name": "note-automation",
-      "summary": "Claude Code で「ひとり出版社」を組み、リサーチから記事生成までを自動化するリポジトリ。",
-      "stack": [
-        "GitHub Actions"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/note-automation-app",
-      "repoName": "note-automation-app",
-      "liveUrl": "https://kou56250046-cloud.github.io/note-automation-app/",
-      "lastUpdated": "2026-08-29",
       "status": "active",
       "tags": [],
       "language": "HTML",
@@ -394,37 +498,6 @@
       "syncState": "synced"
     },
     {
-      "key": "scraipng-diy",
-      "name": "scraipng-diy",
-      "summary": "DIYで木材を買うとき「どこが一番安いか」を探す手間をなくすためのローカルツール。",
-      "stack": [
-        "Streamlit",
-        "Python"
-      ],
-      "lastUpdated": "2026-08-24",
-      "status": "active",
-      "tags": [],
-      "syncState": "local-only"
-    },
-    {
-      "key": "project-review",
-      "name": "project-review",
-      "summary": "フォルダをまるごと読み込んで、構造・関係・中身をその場でレビューするローカル完結型ビューア",
-      "stack": [
-        "Vite",
-        "GitHub Actions"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/project-review",
-      "repoName": "project-review",
-      "liveUrl": "https://kou56250046-cloud.github.io/project-review/",
-      "lastUpdated": "2026-08-22",
-      "status": "active",
-      "tags": [],
-      "language": "JavaScript",
-      "isPrivate": false,
-      "syncState": "synced"
-    },
-    {
       "key": "lyric-generation-app",
       "name": "lyric-generation",
       "summary": "Suno で曲を作るときの Style 欄を考える手間と歌詞を書く手間をなくすための、単一ファイルの Web ツール。",
@@ -450,34 +523,6 @@
         "Node.js"
       ],
       "lastUpdated": "2026-08-16",
-      "status": "active",
-      "tags": [],
-      "syncState": "local-only"
-    },
-    {
-      "key": "file-cleaning",
-      "name": "file-cleaning",
-      "summary": "PC内のデータを可視化し、ストレージを圧迫している原因を発見し、安全に整理するためのストレージ管理ダッシュボード",
-      "stack": [
-        "Electron",
-        "Vite",
-        "TypeScript",
-        "Tailwind"
-      ],
-      "lastUpdated": "2026-08-14",
-      "status": "active",
-      "tags": [],
-      "syncState": "local-only"
-    },
-    {
-      "key": "scraping-pc",
-      "name": "scraping-pc",
-      "summary": "パソコン工房・じゃんぱら・イオシスを横断検索し、条件で絞り込む。 デスクトップPC・ノートPC・iPhone/iPad・メモリ・SSD に対応。",
-      "stack": [
-        "Streamlit",
-        "Python"
-      ],
-      "lastUpdated": "2026-08-11",
       "status": "active",
       "tags": [],
       "syncState": "local-only"
@@ -650,25 +695,6 @@
       "language": "HTML",
       "isPrivate": false,
       "syncState": "attention"
-    },
-    {
-      "key": "virtual-tensin",
-      "name": "virtural-tensinen",
-      "summary": "天心苑祈祷会のバーチャル共在システム。参加者がアバターとして俯瞰空間に集まり、存在感を共有しながら祈祷会に参加できる。",
-      "stack": [
-        "Next.js",
-        "TypeScript",
-        "Tailwind"
-      ],
-      "repoUrl": "https://github.com/kou56250046-cloud/virtual-tensin",
-      "repoName": "virtual-tensin",
-      "liveUrl": "https://virtual-tensin.vercel.app",
-      "lastUpdated": "2026-06-09",
-      "status": "active",
-      "tags": [],
-      "language": "TypeScript",
-      "isPrivate": false,
-      "syncState": "synced"
     },
     {
       "key": "memory-training",
