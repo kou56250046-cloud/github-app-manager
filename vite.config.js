@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [apiPlugin()],
   server: {
     host: '127.0.0.1',   // 外部からアクセスさせない
-    port: 5178,
-    strictPort: false,
+    port: 5178,          // ~/projects/PORTS.md で割り当て済み
+    strictPort: true,
   },
   build: {
     outDir: 'docs',
